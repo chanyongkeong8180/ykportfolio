@@ -1,0 +1,19 @@
+body {
+    font-family: "Minion Variable Concept", serif;
+    background-color: #EB8C31;
+  }
+ 
+  .nav-link, .dropdown-item {
+    font-size: 21px;
+    font-weight: bold;
+    color: #1E291A;
+  }
+
+.nav-link:hover, .dropdown-item:hover {
+  background-color: #EB4C31;
+  color: #1A1A29;
+}
+
+.dropdown-menu {
+  background-color: #EB8C31;
+}
