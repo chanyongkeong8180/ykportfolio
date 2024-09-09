@@ -4,17 +4,23 @@ body {
   color: #1A1A29;
 }
  
-.nav-link, .dropdown-item {
+.nav-link, .nav-link:focus, .dropdown-item {
   font-size: 21px;
   font-weight: bold;
   color: #1E291A;
 }
 
-.nav-link:hover, .dropdown-item:hover {
-  background-color: #EB4C31;
+.dropdown-menu, .dropdown-item:focus {
+  background-color: #EB8C31;
+  color: #1E291A;
+}
+
+.active, .dropdown-item.active {
+  background-color: #EB6D31;
   color: #1A1A29;
 }
 
-.dropdown-menu {
-  background-color: #EB8C31;
+.nav-link:hover, .dropdown-item:hover {
+  background-color: #EB4C31;
+  color: #1A1A29;
 }
