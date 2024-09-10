@@ -4,7 +4,7 @@ body {
   color: #1A1A29;
 }
  
-.nav-link, .nav-link:focus, .dropdown-item {
+.nav-link, .nav-link:focus, .dropdown-item, .list-group-item {
   font-size: 21px;
   font-weight: bold;
   color: #1E291A;
@@ -15,12 +15,12 @@ body {
   color: #1E291A;
 }
 
-.active, .dropdown-item.active {
+.nav-link.active, .dropdown-item.active {
   background-color: #EB6D31;
   color: #1A1A29;
 }
 
-.nav-link:hover, .dropdown-item:hover {
+.nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover {
   background-color: #EB4C31;
   color: #1A1A29;
 }
