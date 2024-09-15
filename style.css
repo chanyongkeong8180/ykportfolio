@@ -10,17 +10,27 @@ body {
   color: #1E291A;
 }
 
-.dropdown-menu, .dropdown-item:focus {
+.dropdown-menu, .dropdown-item:focus, .list-group-item.even {
   background-color: #EB8C31;
   color: #1E291A;
 }
 
-.nav-link.active, .dropdown-item.active {
+.list-group-item.programming.odd {
+  background-color: #EB6D31;
+  color: #1E291A;
+}
+
+.list-group-item.design.odd {
+  background-color: #EB4C31;
+  color: #1E291A;
+}
+
+.dropdown-item.active, .list-group-item.design:hover {
   background-color: #EB6D31;
   color: #1A1A29;
 }
 
-.nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover {
+.nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover, .list-group-item.programming:hover {
   background-color: #EB4C31;
   color: #1A1A29;
 }
