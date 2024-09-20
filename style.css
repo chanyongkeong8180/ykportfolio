@@ -24,7 +24,7 @@ body {
   color: #1E291A;
 }
 
-.dropdown-item.active, .list-group-item.design:hover {
+.navbar-toggler, .dropdown-item.active, .list-group-item.design:hover {
   background-color: #EB6D31;
   color: #1A1A29;
 }
