@@ -4,18 +4,15 @@ body {
   color: #1A1A29;
 }
  
-.nav-link, .nav-link:focus, .dropdown-item, .list-group-item {
+.nav-link, .dropdown-item, .dropdown-item:focus, .dropdown-menu, .list-group-item, 
+.btn, .btn:focus {
   font-weight: bold;
-  color: #1E291A;
-}
-
-.dropdown-menu, .dropdown-item:focus, .list-group-item.even {
-  background-color: #EB8C31;
-  color: #1E291A;
-}
-
-.list-group-item.programming.odd {
   background-color: #EB6D31;
+  color: #1E291A;
+}
+
+.list-group-item.even {
+  background-color: #EB8C31;
   color: #1E291A;
 }
 
@@ -29,7 +26,8 @@ body {
   color: #1A1A29;
 }
 
-.nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover, .list-group-item.programming:hover {
+.nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover, 
+.list-group-item.programming:hover, .btn:hover, .card{
   background-color: #EB4C31;
   color: #1A1A29;
 }
