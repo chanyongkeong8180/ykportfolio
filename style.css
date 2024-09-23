@@ -4,8 +4,8 @@ body {
   color: #1A1A29;
 }
  
-.nav-link, .dropdown-item, .dropdown-item:focus, .dropdown-menu, .list-group-item, 
-.btn, .btn:focus {
+.nav-link, .dropdown-item, .dropdown-item:focus, 
+.dropdown-menu, .list-group-item, .btn {
   font-weight: bold;
   background-color: #EB6D31;
   color: #1E291A;
