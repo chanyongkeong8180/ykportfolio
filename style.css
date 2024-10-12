@@ -5,18 +5,18 @@ body {
 }
  
 .nav-link, .dropdown-item, .dropdown-item:focus, 
-.dropdown-menu, .list-group-item{
+.dropdown-menu, .list-group-item {
   font-weight: bold;
   background-color: #EB6D31;
   color: #1E291A;
 }
 
-.list-group-item.even {
+.list-group-item:nth-child(even) {
   background-color: #EB8C31;
   color: #1E291A;
 }
 
-.list-group-item.design.odd {
+.list-group-item.design:nth-child(odd) {
   background-color: #EB4C31;
   color: #1E291A;
 }
