@@ -6,6 +6,7 @@ body {
  
 .nav-link, .dropdown-item, .dropdown-item:focus, 
 .dropdown-menu, .list-group-item {
+  font-size: 18px;
   font-weight: bold;
   background-color: #EB6D31;
   color: #1E291A;
