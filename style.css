@@ -1,12 +1,12 @@
 body {
   font-family: "Minion Variable Concept", serif;
+  font-size: 18px;
   background-color: #EB8C31;
   color: #1A1A29;
 }
  
 .nav-link, .dropdown-item, .dropdown-item:focus, 
 .dropdown-menu, .list-group-item {
-  font-size: 18px;
   font-weight: bold;
   background-color: #EB6D31;
   color: #1E291A;
