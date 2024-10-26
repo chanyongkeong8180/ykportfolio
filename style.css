@@ -22,13 +22,13 @@ body {
   color: #1E291A;
 }
 
-.navbar-toggler, .dropdown-item.active, .list-group-item.design:hover, .card.poster {
+.navbar-toggler, .dropdown-item.active, .list-group-item.design:hover {
   background-color: #EB6D31;
   color: #1A1A29;
 }
 
 .nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover, 
-.list-group-item.programming:hover, .card.logo {
+.list-group-item.programming:hover, .card {
   background-color: #EB4C31;
   color: #1A1A29;
 }
