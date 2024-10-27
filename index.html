@@ -43,11 +43,34 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm my-3">
-            <img src="multimedia/resume-01.png" class="img-fluid" alt="resume">
-          </div>
-          <div class="col-sm my-3">
-            <img src="multimedia/resume-02.png" class="img-fluid" alt="resume">
+          <div class="col my-3">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <a href="/ykportfolio/graphic-design#logo">
+                  <img class="d-block w-100" src="multimedia/logo.png" alt="logo" width="500px" height="500px">
+                  </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <a href="/ykportfolio/immersive-technologies#first">
+                  <img class="d-block w-100" src="multimedia/firstpuzzle.png" alt="puzzle" width="500px" height="500px">
+                  </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <a href="/ykportfolio/graphic-design#edm">
+                  <img class="d-block w-100" src="multimedia/edm.jpg" alt="logo" width="500px" height="500px">
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev mx-3" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
