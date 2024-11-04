@@ -9,10 +9,11 @@ body {
   background-color: #EB8C31;
   color: #1A1A29;
 }
- 
+
 .nav-link, .dropdown-item, .dropdown-item:focus, 
 .dropdown-menu, .list-group-item {
   font-weight: bold;
+  text-transform: uppercase;
   background-color: #EB6D31;
   color: #1E291A;
 }
