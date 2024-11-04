@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Minion Variable Concept";
+  font-family: "Minion-Variable-Concept";
   src: url(multimedia/MinionVariableConcept-Roman.otf);
 }
 
 body {
-  font-family: "Minion Variable Concept";
+  font-family: "Minion-Variable-Concept";
   font-size: 18px;
   background-color: #EB8C31;
   color: #1A1A29;
