@@ -10,10 +10,6 @@ body {
   color: #1A1A29;
 }
 
-.fa, .fas {
-  font-size: 22px;
-}
-
 .nav-link, .dropdown-item, .dropdown-item:focus, 
 .dropdown-menu, .list-group-item {
   font-weight: bold;
