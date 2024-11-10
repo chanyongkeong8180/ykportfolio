@@ -18,12 +18,12 @@ body {
   color: #1E291A;
 }
 
-.list-group-item:nth-child(even) {
+.list-group-item:nth-child(odd) {
   background-color: #EB8C31;
   color: #1E291A;
 }
 
-.list-group-item.design:nth-child(odd) {
+.list-group-item.design:nth-child(even) {
   background-color: #EB4C31;
   color: #1E291A;
 }
