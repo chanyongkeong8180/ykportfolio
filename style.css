@@ -22,10 +22,6 @@ body {
   color: #1A1A29;
 }
 
-.resume:hover {
-  
-}
-
 .list-group-item:nth-child(odd) {
   background-color: #EB8C31;
   color: #1E291A;
