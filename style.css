@@ -18,6 +18,14 @@ body {
   color: #1E291A;
 }
 
+.resume {
+  color: #1A1A29;
+}
+
+.resume:hover {
+  
+}
+
 .list-group-item:nth-child(odd) {
   background-color: #EB8C31;
   color: #1E291A;
@@ -34,7 +42,7 @@ body {
 }
 
 .nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover, 
-.list-group-item.programming:hover, .card {
+.list-group-item.programming:hover, .card, .resume:hover {
   background-color: #EB4C31;
   color: #1A1A29;
 }
