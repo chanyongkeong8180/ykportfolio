@@ -5,7 +5,7 @@
 
 body {
   font-family: "MinionVariableConcept";
-  font-size: 16pt;
+  font-size: 14pt;
   background-color: #EB8C31;
   color: #1A1A29;
 }
@@ -14,7 +14,7 @@ body {
 .dropdown-menu, .list-group-item {
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #EB6D31;
+  background-color: #EBBD31;
   color: #1E291A;
 }
 
@@ -24,17 +24,17 @@ body {
 }
 
 .list-group-item.design:nth-child(even) {
-  background-color: #EB4C31;
+  background-color: #EBA731;
   color: #1E291A;
 }
 
 .navbar-toggler, .dropdown-item.active, .list-group-item.design:hover {
-  background-color: #EB6D31;
+  background-color: #EBBD31;
   color: #1A1A29;
 }
 
 .nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover, 
 .list-group-item.programming:hover, .card {
-  background-color: #EB4C31;
+  background-color: #EBA731;
   color: #1A1A29;
 }
