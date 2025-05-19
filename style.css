@@ -10,31 +10,31 @@ body {
   color: #1A1A29;
 }
 
-.nav-link, .dropdown-item, .dropdown-item:focus, 
-.dropdown-menu, .list-group-item {
+.nav-link, .dropdown-item, .dropdown-menu, .list-group-item {
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #EBBD31;
-  color: #1E291A;
-}
-
-.list-group-item:nth-child(odd) {
   background-color: #EB8C31;
   color: #1E291A;
 }
 
-.list-group-item.design:nth-child(even) {
-  background-color: #EBA731;
-  color: #1E291A;
-}
-
-.navbar-toggler, .dropdown-item.active, .list-group-item.design:hover {
-  background-color: #EBBD31;
+.dropdown-item.active {
+  background-color: #EB8C31;
   color: #1A1A29;
 }
 
-.nav-link:hover, .nav-link.dropdown-toggle.show, .dropdown-item:hover, 
-.list-group-item.programming:hover, .card {
+.list-group-item.programming:nth-child(even), .container-fluid:nth-child(even) {
+  background-color: #EBBD31;
+}
+
+.list-group-item.design:nth-child(even), .container-fluid:nth-child(odd) {
+  background-color: #EBA731;
+}
+
+.list-group-item.design:hover {
+  background-color: #EBBD31;
+}
+
+.nav-link:hover,  .dropdown-item:hover, .list-group-item.programming:hover {
   background-color: #EBA731;
   color: #1A1A29;
 }
