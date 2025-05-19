@@ -34,10 +34,10 @@ html, body {
 .nav-link:focus, .dropdown-item:focus,
 .list-group-item.design:hover {
   background-color: #EBBD31;
-  color: #1A1A29;
+  color: #1E291A;
 }
 
 .list-group-item.programming:hover {
   background-color: #EBA731;
-  color: #1A1A29;
+  color: #1E291A;
 }
