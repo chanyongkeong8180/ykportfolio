@@ -3,15 +3,10 @@
   src: url(multimedia/MinionVariableConcept-Roman.otf);
 }
 
-body {
+html, body {
   font-family: "MinionVariableConcept";
-  font-size: 1.17em;
+  font-size: 1.17rem;
   background-color: #EB8C31;
-  color: #1A1A29;
-}
-
-span {
-  font-size: 2.34em;
   color: #1A1A29;
 }
 
