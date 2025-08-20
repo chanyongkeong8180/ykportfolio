@@ -10,6 +10,14 @@ html, body {
   color: #1A1A29;
 }
 
+.navbar-toggler {
+  border-color: #1A1A29;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px rgba(26, 26, 41, 1);
+}
+
 .nav-link, .dropdown-item, .dropdown-menu, .list-group-item {
   font-weight: bold;
   text-transform: uppercase;
