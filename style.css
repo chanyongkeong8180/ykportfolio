@@ -44,14 +44,12 @@ html, body {
 
 .nav-link:hover, .dropdown-item:hover, 
 .nav-link:focus, .dropdown-item:focus,
-.nav-link:active, .dropdown-item:active,
 .list-group-item.design:hover {
   background-color: #EBBD31;
   color: #1E291A;
 }
 
-.list-group-item.programming:hover,
-.list-group-item.programming:active {
+.list-group-item.programming:hover {
   background-color: #EBA731;
   color: #1E291A;
 }
