@@ -10,6 +10,10 @@ html, body {
   color: #1A1A29;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 .navbar-toggler {
   border-color: #1A1A29;
 }
