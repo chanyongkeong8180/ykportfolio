@@ -62,15 +62,9 @@ h1 {
 }
 
 .fa-bounce {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .responsive-icon {
-  font-size: 1rem;
-}
-
-@media (max-width: 576px) {
-  .responsive-icon {
-    font-size: 0.5rem;
-  }
+  font-size: 0.75rem;
 }
