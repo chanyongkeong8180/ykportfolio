@@ -8,7 +8,7 @@ html, body {
   background-color: #EB8C31;
   color: #1A1A29;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 h1 {
@@ -59,14 +59,19 @@ h1 {
   color: #1E291A;
 }
 
+.img-fluid {
+  max-width: 20vw;
+  min-width: 10rem;
+  height: auto;
+}
 .fa-solid, .fa-brands {
   color: #1A1A29;
 }
 
 .fa-bounce {
-  font-size: clamp(1.5rem, 12vw, 3rem);
+  font-size: clamp(1.5rem, 10.5vw, 3em);
 }
 
 .responsive-icon {
-  font-size: clamp(0.5rem, 4vw, 1rem);
+  font-size: clamp(0.5rem, 3.5vw, 1rem);
 }
