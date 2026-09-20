@@ -63,21 +63,27 @@ h1 {
 
 
 .fa-bounce {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .responsive-icon {
   font-size: 0.25rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .responsive-icon {
     font-size: 0.5rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .responsive-icon {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-icon {
+    font-size: 1.5rem;
   }
 }
