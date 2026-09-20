@@ -59,7 +59,6 @@ h1 {
 
 .fa-solid, .fa-brands {
   color: #1A1A29;
-  font-size: 1em;
 }
 
 
@@ -73,6 +72,6 @@ h1 {
 
 @media (min-width: 992px) {
   .responsive-icon {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
