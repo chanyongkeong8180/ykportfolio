@@ -7,7 +7,6 @@ html, body {
   font-family: "Shantell Sans";
   background-color: #EB8C31;
   color: #1A1A29;
-  max-width: 100%;
   overflow-x: clip;
 }
 
@@ -61,7 +60,7 @@ h1 {
 
 .img-fluid {
   max-width: 20vw;
-  min-width: 10rem;
+  min-width: 12.5rem;
   height: auto;
 }
 .fa-solid, .fa-brands {
