@@ -68,9 +68,9 @@ h1 {
 }
 
 .fa-bounce {
-  font-size: clamp(1.5rem, 10.5vw, 3em);
+  font-size: clamp(2rem, 10vw, 3em);
 }
 
-.responsive-icon {
-  font-size: clamp(0.5rem, 3.5vw, 1rem);
+.small, .responsive-icon {
+  font-size: clamp(1rem, 5vw, 1.5em);
 }
