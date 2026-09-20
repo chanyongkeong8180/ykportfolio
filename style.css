@@ -7,6 +7,8 @@ html, body {
   font-family: "Shantell Sans";
   background-color: #EB8C31;
   color: #1A1A29;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -62,9 +64,9 @@ h1 {
 }
 
 .fa-bounce {
-  font-size: clamp(1rem, 8vw, 4rem);
+  font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 .responsive-icon {
-  font-size: clamp(0.25rem, 2vw, 1rem);
+  font-size: clamp(0.75rem, 2vw, 1rem);
 }
