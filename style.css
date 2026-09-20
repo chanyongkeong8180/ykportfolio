@@ -56,3 +56,23 @@ h1 {
   background-color: #EBA731;
   color: #1E291A;
 }
+
+.fa-solid, .fa-brands {
+  color: #1A1A29;
+  font-size: 1em;
+}
+
+
+.fa-bounce {
+  font-size: 3em;
+}
+
+.responsive-icon {
+  font-size: 0.5em;
+}
+
+@media (min-width: 992px) {
+  .responsive-icon {
+    font-size: 1em;
+  }
+}
