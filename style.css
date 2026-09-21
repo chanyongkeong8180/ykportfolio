@@ -66,7 +66,11 @@ h1 {
   font-size: clamp(2rem, 10vw, 3rem);
 }
 
-.lead, .responsive-icon {
+.responsive-icon {
+  font-size: clamp(1.6rem, 8vw, 2.4rem);
+}
+
+.lead {
   font-size: clamp(1rem, 5vw, 1.5rem);
 }
 
