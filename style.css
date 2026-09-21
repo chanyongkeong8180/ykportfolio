@@ -58,11 +58,6 @@ h1 {
   color: #1E291A;
 }
 
-.profile-image {
-  max-width: 20vw;
-  min-width: 12.5rem;
-  height: auto;
-}
 .fa-solid, .fa-brands {
   color: #1A1A29;
 }
