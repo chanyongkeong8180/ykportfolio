@@ -33,7 +33,7 @@ h1 {
   color: #1E291A;
 }
 
-.dropdown-item.active {
+.dropdown-item.active, th {
   background-color: #EB8C31;
   color: #1A1A29;
 }
@@ -71,6 +71,10 @@ h1 {
   font-size: clamp(2rem, 10vw, 3em);
 }
 
-.small, .responsive-icon {
+.lead, .responsive-icon {
   font-size: clamp(1rem, 5vw, 1.5em);
+}
+
+.small {
+  font-size: clamp(0.8rem, 4vw, 1.2em);
 }
