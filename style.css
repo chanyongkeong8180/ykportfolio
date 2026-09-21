@@ -63,13 +63,13 @@ h1 {
 }
 
 .fa-bounce {
-  font-size: clamp(2rem, 10vw, 3em);
+  font-size: clamp(2rem, 10vw, 3rem);
 }
 
 .lead, .responsive-icon {
-  font-size: clamp(1rem, 5vw, 1.5em);
+  font-size: clamp(1rem, 5vw, 1.5rem);
 }
 
 .small {
-  font-size: clamp(0.8rem, 4vw, 1.2em);
+  font-size: clamp(0.8rem, 4vw, 1.2rem);
 }
