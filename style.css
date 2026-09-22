@@ -71,11 +71,11 @@ h1 {
 }
 
 .responsive-icon {
-  font-size: calc(var(--scale-base) * 0.6);
+  font-size: calc(var(--scale-base) * 0.75);
 }
 
 .lead {
-  font-size: calc(var(--scale-base) * 0.5);
+  font-size: calc(var(--scale-base) * 0.6);
 }
 
 .small {
