@@ -70,11 +70,7 @@ h1 {
   font-size: var(--scale-base);
 }
 
-.responsive-icon {
-  font-size: calc(var(--scale-base) * 0.6);
-}
-
-.lead {
+.lead, .responsive-icon {
   font-size: calc(var(--scale-base) * 0.6);
   line-height: 1;
 }
