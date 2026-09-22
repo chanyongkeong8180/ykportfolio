@@ -62,18 +62,22 @@ h1 {
   color: #1A1A29;
 }
 
+:root {
+  --scale-base: clamp(2rem, 10vw, 3rem);
+}
+
 .fa-bounce {
-  font-size: clamp(2rem, 10vw, 3rem);
+  font-size: var(--scale-base);
 }
 
 .responsive-icon {
-  font-size: clamp(1.6rem, 8vw, 2.4rem);
+  font-size: calc(var(--scale-base) * 0.6);
 }
 
 .lead {
-  font-size: clamp(1rem, 5vw, 1.5rem);
+  font-size: calc(var(--scale-base) * 0.5);
 }
 
 .small {
-  font-size: clamp(0.8rem, 4vw, 1.2rem);
+  font-size: calc(var(--scale-base) * 0.4);
 }
