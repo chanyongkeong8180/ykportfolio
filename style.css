@@ -46,8 +46,8 @@ h1 {
   background-color: #EBA731;
 }
 
-.nav-link:hover, .dropdown-item:hover, 
-.nav-link:focus, .dropdown-item:focus,
+.nav-link:hover, .dropdown-item:hover,
+.nav-link:focus-visible, .dropdown-item:focus-visible,
 .list-group-item.design:hover {
   background-color: #EBBD31;
   color: #1E291A;
