@@ -63,7 +63,7 @@ h1 {
 }
 
 :root {
-  --scale-base: clamp(1.5rem, 6vw, 3rem);
+  --scale-base: clamp(2rem, 12vw, 3rem);
 }
 
 .fa-bounce {
