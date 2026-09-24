@@ -63,7 +63,7 @@ h1 {
 }
 
 :root {
-  --scale-base: clamp(1rem, 12vw, 3rem);
+  --scale-base: clamp(2rem, 12vw, 3rem);
 }
 
 .fa-bounce {
@@ -72,7 +72,6 @@ h1 {
 
 .lead, .responsive-icon {
   font-size: calc(var(--scale-base) * 0.6);
-  line-height: 1;
 }
 
 .small {
