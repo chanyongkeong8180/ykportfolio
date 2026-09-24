@@ -71,9 +71,9 @@ h1 {
 }
 
 .lead, .responsive-icon {
-  font-size: calc(var(--scale-base) * 0.7);
+  font-size: calc(var(--scale-base) * 0.6);
 }
 
 .small {
-  font-size: calc(var(--scale-base) * 0.35);
+  font-size: calc(var(--scale-base) * 0.4);
 }
