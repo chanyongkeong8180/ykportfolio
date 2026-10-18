@@ -8,6 +8,7 @@ html, body {
   background-color: #EB8C31;
   color: #1A1A29;
   overflow-x: clip;
+  text-wrap:pretty;
 }
 
 h1 {
