@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Nunito";
-  src: url(multimedia/Nunito-Regular.ttf);
+  font-family: "Public Sans";
+  src: url(multimedia/PublicSans-Regular.ttf);
 }
 
 html, body {
-  font-family: "Nunito";
+  font-family: "Public Sans";
   background-color: #EB8C31;
   color: #1A1A29;
   overflow-x: clip;
-  text-wrap:pretty;
+  text-wrap: pretty;
 }
 
 h1 {
