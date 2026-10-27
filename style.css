@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Ubuntu Sans";
-  src: url(multimedia/UbuntuSans-Regular.ttf);
+  font-family: "Ubuntu";
+  src: url(multimedia/Ubuntu-Regular.ttf);
 }
 
 html, body {
-  font-family: "Ubuntu Sans";
+  font-family: "Ubuntu";
   background-color: #EB8C31;
   color: #1A1A29;
   overflow-x: clip;
