@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "Ubuntu";
-  src: url(multimedia/Ubuntu-Regular.ttf);
-}
-
 html, body {
-  font-family: "Ubuntu";
+  font-family: "Nunito", sans-serif;
   background-color: #EB8C31;
   color: #1A1A29;
   overflow-x: clip;
