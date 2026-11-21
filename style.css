@@ -67,9 +67,13 @@ h1 {
 }
 
 .lead, .responsive-icon {
-  font-size: calc(var(--scale-base) * 0.6);
+  font-size: calc(var(--scale-base) * 0.5);
 }
 
 .small {
   font-size: calc(var(--scale-base) * 0.4);
+}
+
+small {
+  font-size: calc(var(--scale-base) * 0.3);
 }
